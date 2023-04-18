@@ -45,7 +45,7 @@ const copyText = () => {
   navigator.clipboard.writeText(results.value)
 
   // ** cambiar estilos del boton
-  copyButton.innerText = 'Texto copiado :D'
+  copyButton.innerText = 'Se copio el texto.'
   copyButton.classList.add('button--copy')
   setTimeout(() => {
     copyButton.innerText = 'Copiar'
