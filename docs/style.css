@@ -1,5 +1,5 @@
 *{
-  box-izing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-size: 1.6rem;
@@ -17,8 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: #20232a;
-  background: 
+  background:linear-gradient(to right, grey, #20232a);
   background-repeat: no-repeat;
 }
 
@@ -28,10 +27,14 @@ body {
 }
 
 .header img {
-  width: 95px;
-  height: 95px;
+  width: 85px;
+  height: 85px;
   margin-left: -15px;
   margin-bottom: -25px;
+}
+strong{
+  color: #61dafb;
+ 
 }
 
 /* MAIN */
@@ -50,9 +53,10 @@ body {
   font-size: 2rem;
   color: #fff;
   resize: none;
-  border-radius: .5rem;
-  background: #282c34;
+  border-radius: 10px;
+  background:linear-gradient(to left, grey, #20232a);
   font-size: 1.8rem;
+  border: solid 2px darkgray;
 }
 
 .main__block1 textarea::placeholder {
@@ -81,16 +85,16 @@ body {
   border-radius: 1rem;
   font-size: 1.5rem;
   transition: 300ms;
-  color: #61dafb;
+  color: #20232a;
   background: transparent;
-  border: 1px solid var(--skyblue);
+  border: 1px solid darkgray;
   transition: 300ms;
   font-weight: 700;
 }
 
 .button:hover {
-  background: #61dafb;
-  color: #20232a;
+  background: #69aebf;
+  color: #61dafb;
 }
 
 .button--copy {
@@ -108,13 +112,16 @@ body {
 }
 
 .b1 {
-  background: #61dafb;
+  background: transparent;
   color: #20232a;
+  font-size: 15px;
 }
 
 .b2:hover+.b1 {
   background: transparent;
-  color:#61dafb;
+  color:#20232a;
+  font-size: 15px;
+
 }
 
 /* sección 2 */
@@ -129,8 +136,9 @@ body {
   flex-direction: column;
   gap: 2rem;
   padding: 1.5rem;
-  border-radius: 1rem;
-  background: #282c34;
+  border-radius: 10px;
+  background:linear-gradient(to left, grey, #20232a);
+  border: solid 2px darkgray;
 }
 
 .container-textarea .warning {

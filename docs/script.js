@@ -1,26 +1,27 @@
-const input = document.querySelector('#textarea1')
-const results = document.querySelector('#textarea2')
-const warningSection = document.querySelector('#warningSection')
-const resultsSection = document.querySelector('#resultsSection')
+const input = document.querySelector('#textarea1');
+const results = document.querySelector('#textarea2');
+const warningSection = document.querySelector('#warningSection');
+const resultsSection = document.querySelector('#resultsSection');
 
 const DICTIONARY = {
+  a: 'ai',
   e: 'enter',
   i: 'imes',
   o: 'ober',
-  a: 'ai',
   u: 'ufat'
-}
+};
 
-// EVENTO DE CLICK
-const handleClick = (type) => {
-  const inputValue = input.value
+// ESCUCHAR EL EVENTO DE CLICK
+handleClick = (type) => {
+  const inputValue = input.value;
 
-  const newText = encryptDecrypt(inputValue, type)
-  showResults(newText)
-}
+  const newText = encryptDecrypt(inputValue, type);
+  showResults(newText);
 
-// ENCRIPTAR/DESENCRIPTAR TEXTO
-const encryptDecrypt = (text, type) => {
+};
+
+// ENCRIPTAR O DESENCRIPTAR TEXTO
+encryptDecrypt = (text, type) => {
   for (const key in DICTIONARY) {
 
     if (type === 'encrypt') {
@@ -29,24 +30,25 @@ const encryptDecrypt = (text, type) => {
       text = text.replace(new RegExp(DICTIONARY[key], 'g'), key)
     }
   }
-  return text
-}
+  return text;
+};
 
-// MOSTRAR RESULTADOS ENTRE LAS SECCIONES
-const showResults = (text) => {
-  results.value = text
+// MOSTRAR RESULTADOS, ALTERNAR ENTRE LAS SECCIONES
+showResults = (text) => {
+  results.value = text;
 
-  warningSection.classList.toggle('novisible', !!text)
-  resultsSection.classList.toggle('novisible', !text)
-}
+  warningSection.classList.toggle('novisible', !!text);
+  resultsSection.classList.toggle('novisible', !text);
+};
+
 
 // COPIAR TEXTO
-const copyText = () => {
-  navigator.clipboard.writeText(results.value)
+copyText = () => {
+  navigator.clipboard.writeText(results.value);
 
   // ** cambiar estilos del boton
-  copyButton.innerText = 'Se copio el texto.'
-  copyButton.classList.add('button--copy')
+  copyButton.innerText = 'Se copio el texto.';
+  copyButton.classList.add('button--copy');
   setTimeout(() => {
     copyButton.innerText = 'Copiar'
     copyButton.classList.remove('button--copy')
