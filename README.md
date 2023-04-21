@@ -24,7 +24,7 @@
 </ul><br>
 
 
-<a href="https://aressantonio.github.io/ENCRIPTADOR-DE-TEXTO/">Visualizar Proyecto.</a>
+<hr><a href="https://aressantonio.github.io/ENCRIPTADOR-DE-TEXTO/">Visualizar Proyecto.</a><hr><br>
 <table>
  <tr>
   <th>Vista móvil</th>
@@ -39,7 +39,7 @@
   <td><img src="" width="300" height="300"></td> 
  </tr>
  <tr>
-  <td>><img src="" width="300" height="300"></td>
-  <td>><img src="" width="300" height="300"></td> 
+  <td><img src="" width="300" height="300"></td>
+  <td><img src="" width="300" height="300"></td> 
  </tr>
 </table>
