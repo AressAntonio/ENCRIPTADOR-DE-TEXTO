@@ -1,4 +1,4 @@
-<h1 alnght=center>ENCRIPTADOR-DE-TEXTO<h1>
+<h1 align="center">ENCRIPTADOR-DE-TEXTO<h1>
 <P>
  <em>Proyecto realizado como parte del primer reto<br>
  del Alura Challenge ONE grupo 5</em><br><bro>
@@ -24,7 +24,7 @@
 </ul><br>
 
 
-<hr alinght="center"><a href="https://aressantonio.github.io/ENCRIPTADOR-DE-TEXTO/">Ir a Proyecto.</a><hr><br>
+<hr align="center"><a href="https://aressantonio.github.io/ENCRIPTADOR-DE-TEXTO/", align="center">Ir a Proyecto.</a><hr><br>
 <table>
  <tr>
   <th>Vista Previa</th>
