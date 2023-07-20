@@ -1,4 +1,4 @@
-<h1 alinght="Center">ENCRIPTADOR-DE-TEXTO<h1>
+<h1 alnght=center>ENCRIPTADOR-DE-TEXTO<h1>
 <P>
  <em>Proyecto realizado como parte del primer reto<br>
  del Alura Challenge ONE grupo 5</em><br><bro>
@@ -24,22 +24,25 @@
 </ul><br>
 
 
-<hr><a href="https://aressantonio.github.io/ENCRIPTADOR-DE-TEXTO/">Visualizar Proyecto.</a><hr><br>
+<hr alinght="center"><a href="https://aressantonio.github.io/ENCRIPTADOR-DE-TEXTO/">Ir a Proyecto.</a><hr><br>
 <table>
  <tr>
-  <th>Vista móvil</th>
-  <th>Vista PC</th>
+  <th>Vista Previa</th>
  </tr>
  <tr>
-  <td></td>
-  <td></td> 
- </tr>
- <tr>
-  <td><img src="" width="300" height="300"></td>
-  <td><img src="" width="300" height="300"></td> 
- </tr>
- <tr>
-  <td><img src="" width="300" height="300"></td>
-  <td><img src="" width="300" height="300"></td> 
+   <video controls width=250, height=250, autoplay>
+    <sourse src="https://github.com/AressAntonio/ENCRIPTADOR-DE-TEXTO/assets/99376135/b871c653-571b-4ed9-9846-8fbf9091513c"  type="video/mp4" /> 
+   </video>
  </tr>
 </table>
+
+
+
+
+
+
+
+
+
+https://github.com/AressAntonio/ENCRIPTADOR-DE-TEXTO/assets/99376135/b871c653-571b-4ed9-9846-8fbf9091513c
+
